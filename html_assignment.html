@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="mycss.css">
+<style type="text/css">
+body {
+       background: linear-gradient(to right, #A9A9A9, white); 
+	   margin-top:5%;
+     }
+
+
+</style>
+</head>
+
+<body >
+<marquee behaviour="alternative" style="border:yellow 1px solid;width:32%; margin-left:34%; background: linear-gradient(to right, red, white); 
+	  ">Please fill the information</marquee>
+<center>
+<form action="#" method="post">
+<fieldset style="width:30%;" >
+<legend ><span style="color :red; font-size:15px;">User_Information</span></legend>
+
+<div >
+<div class="abc" >
+  Enter Firstname 
+  <div class="inp"><input type="text" name="fn"></div>
+</div>
+
+<div class="abc"> 
+  Enter Lastname 
+  <div class="inp"><input type="text" name="ln"></div>
+</div>
+
+
+ <div class="abc"> 
+  Enter Password
+  <div class="inp"><input type="password" name="pw"></div>
+</div>
+
+<div class="abc" style="word-spacing:3.8em;"> 
+Sex
+  <div class="inp" style="margin-left:20px;"><input type="radio" name="sex" value="male" checked="checked">Male
+     <input type="radio" name="sex" value="female">Female</div>
+</div>
+
+<div class="abc" > 
+Nationality 
+<div class="inp" style="padding-left:30px;"><input list="nation"></div>
+<datalist id="nation">
+<option value="INDIA " selected="selected">
+<option value="US" > 
+<option value="UK" > 
+<option value="AUSTRALIA"> 
+<option value="JAPAN" > 
+<option value="CHINA" > 
+</datalist>
+</div>
+
+<div class="abc">
+<fieldset style="width:69%;">
+<legend >Technical Skills</legend>
+ <div style="word-spacing:12px;">
+ <input type="checkbox" name="skill" value="java">JAVA 
+ <input type="checkbox" name="skill" value="asp">ASP.NET
+ <input type="checkbox" name="skill" value="php">PHP </div>
+ 
+<div style="word-spacing:5px;">
+<input type="checkbox" name="skill" value="python">PYTHON
+<input type="checkbox" name="skill" value="ruby">RUBY
+<input type="checkbox" name="skill" value="unix">UNIX</div>
+</fieldset >
+</div>	
+
+
+<div class="abc" > 
+Address 
+<div style="display:inline; padding-left:46px;"><textarea ></textarea></div>
+</div>
+
+   <div class="abc" style="word-spacing:4em;padding-left:6em;"> 
+     <input type="button" value="save">
+     <input type="reset" value="reset">
+   </div>
+</div>
+</div>
+
+</fieldset>
+
+</form>
+</center>
+</body>
+</html>
